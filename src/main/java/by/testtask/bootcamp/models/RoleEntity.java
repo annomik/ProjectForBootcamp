@@ -1,6 +1,6 @@
 package by.testtask.bootcamp.models;
 
-import by.testtask.bootcamp.models.enums.UserRole;
+import by.testtask.bootcamp.core.enums.UserRole;
 import lombok.*;
 import jakarta.persistence.*;
 
@@ -11,7 +11,7 @@ import jakarta.persistence.*;
 @NoArgsConstructor
 @Entity
 @Table(name = "role")
-public class Role {
+public class RoleEntity {
 
     @Id
     @Enumerated(EnumType.STRING)
