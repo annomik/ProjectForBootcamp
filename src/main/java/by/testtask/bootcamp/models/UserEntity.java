@@ -12,7 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Entity
 @Table(name = "users")
-public class User  {
+public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -30,6 +30,14 @@ public class User  {
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "role")
-    private Role role;
+    private RoleEntity roleEntity;
 
+    public UserEntity(String lastName, String firstName, String patronymic,
+                      String email, RoleEntity roleEntity) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.patronymic = patronymic;
+        this.email = email;
+        this.roleEntity = roleEntity;
+    }
 }
