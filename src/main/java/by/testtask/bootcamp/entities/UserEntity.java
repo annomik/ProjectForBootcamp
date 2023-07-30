@@ -1,4 +1,4 @@
-package by.testtask.bootcamp.models;
+package by.testtask.bootcamp.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

@@ -1,4 +1,4 @@
-package by.testtask.bootcamp.models;
+package by.testtask.bootcamp.entities;
 
 import by.testtask.bootcamp.core.enums.UserRole;
 import lombok.*;
