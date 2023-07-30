@@ -10,10 +10,14 @@ import jakarta.persistence.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "roles")
+@Table(schema = "bootcamp", name = "role")
 public class RoleEntity {
 
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.IDENTITY)
+//    private Long id;
     @Id
     @Enumerated(EnumType.STRING)
+   // @Column(name = "role")
     private UserRole role;
 }

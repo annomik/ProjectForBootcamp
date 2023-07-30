@@ -17,10 +17,10 @@ public class UserService {
     private final UserRepository userRepository;
     private final ConversionService conversionService;
 
-    public boolean createUser(UserCreateDTO user) {
-        String email = user.getEmail();
+    public boolean createUser(UserCreateDTO userCreateDTO) {
+        String email = userCreateDTO.getEmail();
         if (userRepository.findByEmail(email) != null) return false;
-        UserEntity userEntity = conversionService.convert(user, UserEntity.class);
+        UserEntity userEntity = conversionService.convert(userCreateDTO, UserEntity.class);
         userRepository.save(userEntity);
         return true;
     }
