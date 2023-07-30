@@ -18,7 +18,7 @@ public class UserController {
 
     @GetMapping("/users")
     public ResponseEntity<List<UserDTO>> getAllUsers() {
-        return ResponseEntity.status(HttpStatus.OK).body(userService.listOfUsers());
+        return ResponseEntity.status(HttpStatus.OK).body(userService.getAllUsers());
     }
 
     @PostMapping("/user")

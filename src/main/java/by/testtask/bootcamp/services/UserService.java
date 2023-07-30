@@ -7,6 +7,7 @@ import by.testtask.bootcamp.repositories.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.stereotype.Service;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -24,12 +25,11 @@ public class UserService {
         return true;
     }
 
-    public List<UserDTO> listOfUsers() {
+    public List<UserDTO> getAllUsers() {
         List<UserEntity> allEntities = userRepository.findAll();
         return allEntities.stream()
-                .map(s -> conversionService.convert(allEntities, UserDTO.class))
+                .map(s -> conversionService.convert(s, UserDTO.class))
                 .collect(Collectors.toList());
-
-             }
+        }
 
 }
