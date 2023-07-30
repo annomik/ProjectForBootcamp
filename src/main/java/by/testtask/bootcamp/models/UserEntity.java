@@ -5,8 +5,8 @@ import lombok.*;
 
 @Getter
 @Setter
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @Entity
 @Table(schema = "bootcamp", name = "user")
 public class UserEntity {
@@ -14,31 +14,22 @@ public class UserEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
-    @Column(name = "lastname", length = 40)
+    @Column(name = "last_name", length = 40)
     private String lastName;
-    @Column(name = "firstname", length = 20)
+    @Column(name = "first_name", length = 20)
     private String firstName;
     @Column(length = 40)
     private String patronymic;
     @Column(unique = true, updatable = false)
     private String email;
 
-//    @Column(length = 100)
-//    private String password;
-
-//    @Enumerated(EnumType.STRING)
-//    @ManyToOne(cascade = CascadeType.ALL)
-//    @JoinColumn(name = "role_id")
-
     @Enumerated(EnumType.STRING)
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinTable(schema = "bootcamp", name = "user_role",
-            joinColumns=
-            @JoinColumn(name="user_id"),
-            inverseJoinColumns=
-            @JoinColumn(name="role_id")
-    )
+    @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @JoinColumn(name = "role_id")
     private RoleEntity roleEntity;
+
+    //    @Column(length = 100)
+//    private String password;
 
     public UserEntity(String lastName, String firstName, String patronymic, String email, RoleEntity roleEntity) {
         this.lastName = lastName;
