@@ -4,7 +4,7 @@ import by.testtask.bootcamp.core.enums.UserRole;
 import lombok.*;
 import jakarta.persistence.*;
 
-@Embeddable
+//@Embeddable
 @Getter
 @Setter
 @NoArgsConstructor

@@ -12,12 +12,7 @@ public class BootcampApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(BootcampApplication.class, args);
+//		logger.info("BootcampApplication started");
 
-//		logger.trace("Trace log message");
-//		logger.debug("Debug log message");
-//		logger.info("Info log message");
-//		logger.error("Error log message");
-		logger.warn("Warn log message");
-		logger.fatal("Fatal log message");
 	}
 }
