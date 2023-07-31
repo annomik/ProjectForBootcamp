@@ -1,6 +1,6 @@
 package by.testtask.bootcamp.converters;
 
-import by.testtask.bootcamp.core.UserDTO;
+import by.testtask.bootcamp.core.dto.UserDTO;
 import by.testtask.bootcamp.entities.UserEntity;
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
