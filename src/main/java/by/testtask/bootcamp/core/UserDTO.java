@@ -16,4 +16,8 @@ public class UserDTO {
    // @ValidEmail
     private String email;
     private UserRole userRole;
+
+    public String getEmail() {
+        return email;
+    }
 }
