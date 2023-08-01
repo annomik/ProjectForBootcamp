@@ -17,11 +17,11 @@ import org.springframework.core.convert.ConversionService;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.annotation.Validated;
 
-import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -32,8 +32,8 @@ import java.util.stream.Collectors;
 public class UserService {
     private final UserRepository userRepository;
     private final ConversionService conversionService;
-    private static final Logger logger = LogManager.getLogger(UserService.class);
 
+    private static final Logger logger = LogManager.getLogger(UserService.class);
     public void createUser(@NotNull @Valid UserCreateDTO userCreateDTO) {
         String email = userCreateDTO.getEmail();
         if (userRepository.findByEmail(email) != null) {
@@ -44,36 +44,23 @@ public class UserService {
         }
         UserEntity userEntity = conversionService.convert(userCreateDTO, UserEntity.class);
         userRepository.save(userEntity);
-        logger.info("New user has been created: " + userCreateDTO);
+        logger.info("New user has been created: " + userEntity);
+
     }
 
-    public List<UserDTO> getAllUsers() {
-        List<UserEntity> allEntities = userRepository.findAll();
-        if (!conversionService.canConvert(UserCreateDTO.class, UserEntity.class)) {
-            throw new ConversionTypeException("Failed to convert", ErrorCode.ERROR);
-        }
-        List<UserDTO> collect = allEntities.stream()
-                .map(s -> conversionService.convert(s, UserDTO.class))
-                .sorted(Comparator.comparing(o -> o.getEmail()))
-                .collect(Collectors.toList());
-        logger.info("List of users received");
-        return collect;
-    }
-
-    public PageDTO<UserDTO> getPage(int numberOfPage, int size) {
-        Pageable pageable = PageRequest.of(numberOfPage, size);
-        Page<UserEntity> allEntity = userRepository.findAll(pageable);
+    public PageDTO<UserDTO> getPage(int numberOfPage, int size, String sortField) {
+        Sort sort = Sort.by(sortField).ascending();
+        Pageable paged = PageRequest.of(numberOfPage, size, sort);
+        Page<UserEntity> allEntity = userRepository.findAll(paged);
 
         if (!conversionService.canConvert(UserCreateDTO.class, UserEntity.class)) {
             throw new ConversionTypeException("Failed to convert", ErrorCode.ERROR);
         }
         List<UserDTO> content = allEntity.getContent().stream()
                 .map(s -> conversionService.convert(s, UserDTO.class))
-                .sorted(Comparator.comparing(o -> o.getEmail()))
                 .collect(Collectors.toList());
-        logger.info("Page(s) of users received");
 
-        return new PageDTO<>(allEntity.getNumber(),
+        PageDTO<UserDTO> PageOfUserDTO = new PageDTO<>(allEntity.getNumber(),
                 allEntity.getSize(),
                 allEntity.getTotalPages(),
                 allEntity.getTotalElements(),
@@ -81,5 +68,7 @@ public class UserService {
                 allEntity.getNumberOfElements(),
                 allEntity.isLast(),
                 content);
+        logger.info("Page(s) of users received: {} ", PageOfUserDTO);
+        return PageOfUserDTO;
     }
 }
