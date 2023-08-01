@@ -11,7 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class PageDTO<T> {
-    @JsonProperty("number")
+    @JsonProperty("numberOfPage")
     private int number = 0;
     @JsonProperty("size")
     private int size = 10;

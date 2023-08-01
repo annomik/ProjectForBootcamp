@@ -3,9 +3,7 @@ package by.testtask.bootcamp.core.dto;
 import by.testtask.bootcamp.UserRole;
 import lombok.*;
 
-@Getter
-@Setter
-@EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@Data
 @NoArgsConstructor
 public class UserDTO {
     private Long id;
@@ -22,9 +20,5 @@ public class UserDTO {
         this.patronymic = patronymic;
         this.email = email;
         this.userRole = userRole;
-    }
-
-    public String getEmail() {
-        return email;
     }
 }
