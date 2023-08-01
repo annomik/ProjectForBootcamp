@@ -9,6 +9,7 @@ import lombok.*;
 @Getter
 @Setter
 @EqualsAndHashCode
+@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserCreateDTO {

@@ -30,3 +30,309 @@
 2023-08-01 00:26:31,559 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
 2023-08-01 00:26:31,561 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
 2023-08-01 00:26:31,566 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-01 00:32:45,226 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-08-01 00:32:45,259 INFO b.t.b.BootcampApplication [main] Starting BootcampApplication using Java 17.0.6 with PID 16184 (D:\Companies\IT Bootcamp\ProjectForBootcamp\target\classes started by HP in D:\Companies\IT Bootcamp\ProjectForBootcamp)
+2023-08-01 00:32:45,263 INFO b.t.b.BootcampApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-01 00:32:45,869 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-01 00:32:45,922 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+2023-08-01 00:32:46,534 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-01 00:32:46,543 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-01 00:32:46,547 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-01 00:32:46,547 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-01 00:32:46,650 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-01 00:32:46,652 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1347 ms
+2023-08-01 00:32:46,902 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-01 00:32:46,959 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-01 00:32:47,263 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-01 00:32:47,607 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@702096ef
+2023-08-01 00:32:47,609 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-01 00:32:47,655 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-01 00:32:48,355 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-01 00:32:48,364 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 00:32:48,604 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 00:32:49,038 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-01 00:32:49,065 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-01 00:32:49,073 INFO b.t.b.BootcampApplication [main] Started BootcampApplication in 4.13 seconds (process running for 4.884)
+2023-08-01 00:32:58,596 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 00:32:58,596 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-08-01 00:32:58,597 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-08-01 00:32:58,759 INFO b.t.b.s.UserService [http-nio-8080-exec-1] Page(s) of users received
+2023-08-01 00:33:38,349 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 00:33:38,350 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-01 00:33:38,356 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-01 11:05:06,022 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-08-01 11:05:06,102 INFO b.t.b.BootcampApplication [main] Starting BootcampApplication using Java 17.0.6 with PID 12584 (D:\Companies\IT Bootcamp\ProjectForBootcamp\target\classes started by HP in D:\Companies\IT Bootcamp\ProjectForBootcamp)
+2023-08-01 11:05:06,114 INFO b.t.b.BootcampApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-01 11:05:07,354 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-01 11:05:07,461 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+2023-08-01 11:05:08,700 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-01 11:05:08,716 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:05:08,721 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-01 11:05:08,722 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-01 11:05:08,912 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-01 11:05:08,915 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2714 ms
+2023-08-01 11:05:09,262 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-01 11:05:09,383 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-01 11:05:09,982 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-01 11:05:10,661 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6df2af02
+2023-08-01 11:05:10,665 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-01 11:05:10,791 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-01 11:05:12,370 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-01 11:05:12,386 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:05:12,955 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 11:05:13,596 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:05:13,639 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-01 11:05:13,657 INFO b.t.b.BootcampApplication [main] Started BootcampApplication in 8.277 seconds (process running for 10.483)
+2023-08-01 11:05:49,859 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 11:05:49,859 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-08-01 11:05:49,861 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2023-08-01 11:28:39,067 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:28:39,071 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-01 11:28:39,085 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-01 11:28:55,293 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-08-01 11:28:55,372 INFO b.t.b.BootcampApplication [main] Starting BootcampApplication using Java 17.0.6 with PID 21196 (D:\Companies\IT Bootcamp\ProjectForBootcamp\target\classes started by HP in D:\Companies\IT Bootcamp\ProjectForBootcamp)
+2023-08-01 11:28:55,387 INFO b.t.b.BootcampApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-01 11:28:56,773 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-01 11:28:56,869 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2023-08-01 11:28:57,901 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-01 11:28:57,924 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:28:57,928 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-01 11:28:57,929 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-01 11:28:58,091 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-01 11:28:58,094 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2620 ms
+2023-08-01 11:28:58,532 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-01 11:28:58,629 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-01 11:28:59,172 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-01 11:28:59,766 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37a3ec27
+2023-08-01 11:28:59,768 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-01 11:28:59,869 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-01 11:29:01,290 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-01 11:29:01,308 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:29:01,770 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 11:29:02,463 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:29:02,506 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-01 11:29:02,529 INFO b.t.b.BootcampApplication [main] Started BootcampApplication in 7.771 seconds (process running for 10.058)
+2023-08-01 11:29:27,131 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 11:29:27,132 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-01 11:29:27,134 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-08-01 11:29:27,674 INFO b.t.b.s.UserService [http-nio-8080-exec-2] New user has been created
+2023-08-01 11:29:31,225 INFO b.t.b.s.UserService [http-nio-8080-exec-3] Page(s) of users received
+2023-08-01 11:29:37,298 INFO b.t.b.s.UserService [http-nio-8080-exec-4] Page(s) of users received
+2023-08-01 11:34:22,605 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:34:22,609 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-01 11:34:22,623 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-01 11:34:31,293 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-08-01 11:34:31,368 INFO b.t.b.BootcampApplication [main] Starting BootcampApplication using Java 17.0.6 with PID 21160 (D:\Companies\IT Bootcamp\ProjectForBootcamp\target\classes started by HP in D:\Companies\IT Bootcamp\ProjectForBootcamp)
+2023-08-01 11:34:31,379 INFO b.t.b.BootcampApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-01 11:34:32,538 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-01 11:34:32,634 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 82 ms. Found 1 JPA repository interfaces.
+2023-08-01 11:34:33,819 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-01 11:34:33,832 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:34:33,836 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-01 11:34:33,836 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-01 11:34:34,011 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-01 11:34:34,014 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2552 ms
+2023-08-01 11:34:34,460 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-01 11:34:34,553 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-01 11:34:35,110 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-01 11:34:35,669 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75452aea
+2023-08-01 11:34:35,671 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-01 11:34:35,766 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-01 11:34:37,197 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-01 11:34:37,214 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:34:37,694 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 11:34:38,397 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:34:38,441 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-01 11:34:38,456 INFO b.t.b.BootcampApplication [main] Started BootcampApplication in 7.705 seconds (process running for 9.099)
+2023-08-01 11:34:46,169 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 11:34:46,170 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-01 11:34:46,171 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-08-01 11:37:55,833 INFO b.t.b.s.UserService [http-nio-8080-exec-10] Page(s) of users received
+2023-08-01 11:39:05,227 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:39:05,231 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-01 11:39:05,246 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-01 11:39:13,097 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-08-01 11:39:13,168 INFO b.t.b.BootcampApplication [main] Starting BootcampApplication using Java 17.0.6 with PID 12360 (D:\Companies\IT Bootcamp\ProjectForBootcamp\target\classes started by HP in D:\Companies\IT Bootcamp\ProjectForBootcamp)
+2023-08-01 11:39:13,180 INFO b.t.b.BootcampApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-01 11:39:14,412 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-01 11:39:14,518 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2023-08-01 11:39:15,533 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-01 11:39:15,545 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:39:15,549 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-01 11:39:15,550 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-01 11:39:15,723 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-01 11:39:15,727 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2467 ms
+2023-08-01 11:39:16,095 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-01 11:39:16,176 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-01 11:39:16,724 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-01 11:39:17,272 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@338d47b
+2023-08-01 11:39:17,274 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-01 11:39:17,383 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-01 11:39:18,836 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-01 11:39:18,848 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:39:19,315 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 11:39:20,011 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:39:20,057 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-01 11:39:20,073 INFO b.t.b.BootcampApplication [main] Started BootcampApplication in 7.578 seconds (process running for 9.025)
+2023-08-01 11:39:24,100 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 11:39:24,100 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2023-08-01 11:39:24,104 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-3] Completed initialization in 2 ms
+2023-08-01 11:39:24,401 INFO b.t.b.s.UserService [http-nio-8080-exec-3] Page(s) of users received
+2023-08-01 11:39:38,652 INFO b.t.b.s.UserService [http-nio-8080-exec-5] New user has been created:by.testtask.bootcamp.core.dto.UserCreateDTO@455a4a7c
+2023-08-01 11:39:50,461 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:39:50,465 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-01 11:39:50,481 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-01 11:40:08,565 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-08-01 11:40:08,624 INFO b.t.b.BootcampApplication [main] Starting BootcampApplication using Java 17.0.6 with PID 8920 (D:\Companies\IT Bootcamp\ProjectForBootcamp\target\classes started by HP in D:\Companies\IT Bootcamp\ProjectForBootcamp)
+2023-08-01 11:40:08,637 INFO b.t.b.BootcampApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-01 11:40:09,769 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-01 11:40:09,871 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interfaces.
+2023-08-01 11:40:10,940 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-01 11:40:10,952 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:40:10,956 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-01 11:40:10,957 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-01 11:40:11,129 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-01 11:40:11,132 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2413 ms
+2023-08-01 11:40:11,504 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-01 11:40:11,585 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-01 11:40:12,147 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-01 11:40:12,692 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f471037
+2023-08-01 11:40:12,694 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-01 11:40:12,790 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-01 11:40:14,155 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-01 11:40:14,168 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:40:14,625 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 11:40:15,264 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:40:15,305 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-01 11:40:15,326 INFO b.t.b.BootcampApplication [main] Started BootcampApplication in 7.324 seconds (process running for 8.836)
+2023-08-01 11:40:21,244 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 11:40:21,245 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-01 11:40:21,247 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-08-01 11:40:32,935 INFO b.t.b.s.UserService [http-nio-8080-exec-6] New user has been created:UserCreateDTO(lastName=user, firstName=na, patronymic=A, email=aa111@fom.com, userRole=ADMIN)
+2023-08-01 11:42:30,774 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:42:30,778 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-01 11:42:30,793 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-01 11:42:50,359 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-08-01 11:42:50,441 INFO b.t.b.BootcampApplication [main] Starting BootcampApplication using Java 17.0.6 with PID 19596 (D:\Companies\IT Bootcamp\ProjectForBootcamp\target\classes started by HP in D:\Companies\IT Bootcamp\ProjectForBootcamp)
+2023-08-01 11:42:50,451 INFO b.t.b.BootcampApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-01 11:42:51,554 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-01 11:42:51,647 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2023-08-01 11:42:52,752 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-01 11:42:52,763 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:42:52,767 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-01 11:42:52,768 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-01 11:42:52,969 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-01 11:42:52,972 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2444 ms
+2023-08-01 11:42:53,374 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-01 11:42:53,461 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-01 11:42:53,981 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-01 11:42:54,455 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10d98940
+2023-08-01 11:42:54,458 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-01 11:42:54,560 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-01 11:42:55,937 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-01 11:42:55,956 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:42:56,426 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 11:42:57,061 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:42:57,101 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-01 11:42:57,116 INFO b.t.b.BootcampApplication [main] Started BootcampApplication in 7.319 seconds (process running for 8.637)
+2023-08-01 11:43:02,225 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 11:43:02,226 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-08-01 11:43:02,228 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-08-01 11:43:02,534 INFO b.t.b.s.UserService [http-nio-8080-exec-1] Page(s) of users received
+2023-08-01 11:43:14,436 INFO b.t.b.s.UserService [http-nio-8080-exec-4] Page(s) of users received
+2023-08-01 11:43:25,854 INFO b.t.b.s.UserService [http-nio-8080-exec-7] New user has been created: UserCreateDTO(lastName=user, firstName=na, patronymic=A, email=cc111@fom.com, userRole=ADMIN)
+2023-08-01 11:43:29,125 INFO b.t.b.s.UserService [http-nio-8080-exec-8] Page(s) of users received
+2023-08-01 11:47:16,611 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:47:16,614 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-01 11:47:16,627 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-01 11:48:10,586 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-08-01 11:48:10,670 INFO b.t.b.BootcampApplication [main] Starting BootcampApplication using Java 17.0.6 with PID 9812 (D:\Companies\IT Bootcamp\ProjectForBootcamp\target\classes started by HP in D:\Companies\IT Bootcamp\ProjectForBootcamp)
+2023-08-01 11:48:10,680 INFO b.t.b.BootcampApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-01 11:48:11,876 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-01 11:48:11,973 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interfaces.
+2023-08-01 11:48:13,056 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-01 11:48:13,067 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:48:13,081 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-01 11:48:13,082 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-01 11:48:13,253 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-01 11:48:13,256 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2494 ms
+2023-08-01 11:48:13,663 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-01 11:48:13,737 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-01 11:48:14,231 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-01 11:48:14,757 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75452aea
+2023-08-01 11:48:14,759 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-01 11:48:14,859 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-01 11:48:16,251 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-01 11:48:16,265 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:48:16,721 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 11:48:17,383 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:48:17,430 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-01 11:48:17,449 INFO b.t.b.BootcampApplication [main] Started BootcampApplication in 7.417 seconds (process running for 8.77)
+2023-08-01 11:48:39,845 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 11:48:39,845 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-08-01 11:48:39,848 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+2023-08-01 11:48:40,150 INFO b.t.b.s.UserService [http-nio-8080-exec-1] Page(s) of users received
+2023-08-01 11:49:43,352 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:49:43,356 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-01 11:49:43,370 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-01 11:49:50,101 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-08-01 11:49:50,177 INFO b.t.b.BootcampApplication [main] Starting BootcampApplication using Java 17.0.6 with PID 17200 (D:\Companies\IT Bootcamp\ProjectForBootcamp\target\classes started by HP in D:\Companies\IT Bootcamp\ProjectForBootcamp)
+2023-08-01 11:49:50,191 INFO b.t.b.BootcampApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-01 11:49:51,305 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-01 11:49:51,410 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 88 ms. Found 1 JPA repository interfaces.
+2023-08-01 11:49:52,518 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-01 11:49:52,530 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:49:52,534 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-01 11:49:52,535 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-01 11:49:52,720 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-01 11:49:52,724 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2451 ms
+2023-08-01 11:49:53,056 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-01 11:49:53,140 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-01 11:49:53,670 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-01 11:49:54,211 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cc9bd9b
+2023-08-01 11:49:54,213 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-01 11:49:54,305 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-01 11:49:55,733 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-01 11:49:55,746 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:49:56,204 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 11:49:56,896 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:49:56,942 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-01 11:49:56,958 INFO b.t.b.BootcampApplication [main] Started BootcampApplication in 7.409 seconds (process running for 8.801)
+2023-08-01 11:50:02,989 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 11:50:02,989 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-01 11:50:02,991 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-08-01 11:50:33,214 INFO b.t.b.s.UserService [http-nio-8080-exec-3] New user has been created: UserCreateDTO(lastName=user, firstName=na, patronymic=A, email=a111@fom.com, userRole=ADMIN)
+2023-08-01 11:51:00,387 INFO b.t.b.s.UserService [http-nio-8080-exec-7] Page(s) of users received
+2023-08-01 11:51:47,185 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:51:47,189 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-01 11:51:47,204 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-08-01 11:51:54,505 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.1.Final
+2023-08-01 11:51:54,574 INFO b.t.b.BootcampApplication [main] Starting BootcampApplication using Java 17.0.6 with PID 5220 (D:\Companies\IT Bootcamp\ProjectForBootcamp\target\classes started by HP in D:\Companies\IT Bootcamp\ProjectForBootcamp)
+2023-08-01 11:51:54,589 INFO b.t.b.BootcampApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-08-01 11:51:55,740 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-01 11:51:55,828 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interfaces.
+2023-08-01 11:51:56,911 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-08-01 11:51:56,922 INFO o.a.c.h.Http11NioProtocol [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:51:56,927 INFO o.a.c.c.StandardService [main] Starting service [Tomcat]
+2023-08-01 11:51:56,927 INFO o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-01 11:51:57,106 INFO o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+2023-08-01 11:51:57,109 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2440 ms
+2023-08-01 11:51:57,461 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-01 11:51:57,538 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-08-01 11:51:58,059 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-08-01 11:51:58,606 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@338d47b
+2023-08-01 11:51:58,608 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-08-01 11:51:58,708 INFO SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-08-01 11:52:00,101 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-08-01 11:52:00,114 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:52:00,588 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-01 11:52:01,414 INFO o.a.c.h.Http11NioProtocol [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-08-01 11:52:01,461 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-08-01 11:52:01,484 INFO b.t.b.BootcampApplication [main] Started BootcampApplication in 7.536 seconds (process running for 8.93)
+2023-08-01 11:52:03,950 INFO o.a.c.c.C.[.[.[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-01 11:52:03,951 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-08-01 11:52:03,953 INFO o.s.w.s.DispatcherServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-08-01 11:52:04,327 INFO b.t.b.s.UserService [http-nio-8080-exec-2] Page(s) of users received
+2023-08-01 11:52:31,723 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-01 11:52:31,727 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-08-01 11:52:31,741 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

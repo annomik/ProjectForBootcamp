@@ -29,7 +29,6 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 @Validated
 @Service
-
 public class UserService {
     private final UserRepository userRepository;
     private final ConversionService conversionService;
@@ -45,7 +44,7 @@ public class UserService {
         }
         UserEntity userEntity = conversionService.convert(userCreateDTO, UserEntity.class);
         userRepository.save(userEntity);
-        logger.info("New user has been created");
+        logger.info("New user has been created: " + userCreateDTO);
     }
 
     public List<UserDTO> getAllUsers() {
