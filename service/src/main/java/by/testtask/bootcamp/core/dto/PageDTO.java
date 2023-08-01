@@ -6,9 +6,7 @@ import lombok.*;
 
 import java.util.List;
 
-@Getter
-@Setter
-@EqualsAndHashCode
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)

@@ -6,10 +6,7 @@ import by.testtask.bootcamp.validator.api.ValidString;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
 
-@Getter
-@Setter
-@EqualsAndHashCode
-@ToString
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserCreateDTO {
@@ -24,4 +21,5 @@ public class UserCreateDTO {
     private String email;
     @NotNull(message = "This ROLE of users doesn't exist")
     private UserRole userRole;
+
 }
