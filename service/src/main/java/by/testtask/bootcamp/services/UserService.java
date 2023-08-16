@@ -34,7 +34,7 @@ public class UserService {
     private final ConversionService conversionService;
 
     private static final Logger logger = LogManager.getLogger(UserService.class);
-    public void createUser(@NotNull @Valid UserCreateDTO userCreateDTO) {
+    public boolean createUser(@NotNull @Valid UserCreateDTO userCreateDTO) {
         String email = userCreateDTO.getEmail();
         if (userRepository.findByEmail(email) != null) {
             throw new InputSingleDataException("User with this email already exists.", ErrorCode.ERROR);
@@ -45,7 +45,7 @@ public class UserService {
         UserEntity userEntity = conversionService.convert(userCreateDTO, UserEntity.class);
         userRepository.save(userEntity);
         logger.info("New user has been created: " + userEntity);
-
+        return true;
     }
 
     public PageDTO<UserDTO> getPage(int numberOfPage, int size, String sortField) {

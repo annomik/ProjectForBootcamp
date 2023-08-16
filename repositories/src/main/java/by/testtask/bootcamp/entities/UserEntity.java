@@ -21,16 +21,13 @@ public class UserEntity {
     private String firstName;
     @Column(length = 40)
     private String patronymic;
-    @Column(unique = true, updatable = false)
+    @Column(unique = true, length = 50)
     private String email;
 
     @Enumerated(EnumType.STRING)
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "role_id")
     private RoleEntity roleEntity;
-
-    //    @Column(length = 100)
-//    private String password;
 
     public UserEntity(String lastName, String firstName, String patronymic, String email, RoleEntity roleEntity) {
         this.lastName = lastName;
