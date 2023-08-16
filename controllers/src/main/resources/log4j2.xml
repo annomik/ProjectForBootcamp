@@ -3,14 +3,12 @@
 
     <Appenders>
         <Console name="STDOUT">
-            <Layout type="PatternLayout" pattern="%m %n" />
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
         <RollingFile name="rollingFile"
                      fileName="logs/log4j2.log"
                      filePattern="logs/$${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz">
-            <PatternLayout>
-                <Pattern>%d %p %c{1.} [%t] %m%n</Pattern>
-            </PatternLayout>
+
             <Policies>
                 <TimeBasedTriggeringPolicy interval = "1" />
                 <SizeBasedTriggeringPolicy
@@ -25,5 +23,4 @@
             <AppenderRef ref="rollingFile" />
         </Root>
     </Loggers>
-
 </Configuration>
